@@ -21,4 +21,15 @@ what is CQRS pattern
  Azure kubernetes service
 
 
+31/10/2021
+So Finally application is successfully uploaded to GitHib Repository.
+Now the next point is we have to create the pipleine in azure devops.
+Finally we get to azure devops.
+Now Azure Devops does not provide hosting environment for creating a pipeline to achieve CI
+What is CI?
+It is just a process to creat the pipeline(It is just a build process + unit test+environment of the application)
+We can do same process with jenkins.
+Remarks:We have to create own hosting environment for creating pipeline.Azure devops does not provide hosting environment.
+Pool..................Agent(hosting environment)Kestrel is a hosting environment for .net coregit..............pipeline..............complete application environment for CI
 
+Artifacts means packaging of a build before moving to release
