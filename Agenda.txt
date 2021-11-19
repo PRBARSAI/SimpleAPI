@@ -33,3 +33,12 @@ Remarks:We have to create own hosting environment for creating pipeline.Azure de
 Pool..................Agent(hosting environment)Kestrel is a hosting environment for .net coregit..............pipeline..............complete application environment for CI
 
 Artifacts means packaging of a build before moving to release
+
+
+
+git status
+git pull
+git commit -m "Comment"
+git remote add origin https://github.com/ShilpaMaheshwari/SimpleAPI.git
+git branch -M main
+git push -u origin main
