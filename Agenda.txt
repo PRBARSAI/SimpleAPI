@@ -38,6 +38,7 @@ Artifacts means packaging of a build before moving to release
 
 git status
 git pull
+git add .
 git commit -m "Comment"
 git remote add origin https://github.com/ShilpaMaheshwari/SimpleAPI.git
 git branch -M main
