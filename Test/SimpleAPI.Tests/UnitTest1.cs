@@ -11,7 +11,7 @@ namespace SimpleAPI.Tests
         public void GetReturnValue()
         {
               obj=new WeatherForecastController();
-              var objget=obj.Get(1);
+              var objget=obj.Get();
               Assert.Equal("Priyanka gupta",objget.Value);
         }
     }
