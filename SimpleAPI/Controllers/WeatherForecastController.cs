@@ -19,13 +19,10 @@ namespace SimpleAPI.Controllers
         private readonly ILogger<WeatherForecastController> _logger;
         public WeatherForecastController(){}
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
-        {
-            _logger = logger;
-        }
+        
 
         [HttpGet]
-        public ActionResult<string> Get(int id)
+        public ActionResult<string> Get()
         {
             return "Priyanka gupta";
         }
